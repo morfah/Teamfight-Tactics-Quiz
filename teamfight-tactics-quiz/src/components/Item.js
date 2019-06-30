@@ -1,11 +1,17 @@
 import React from 'react';
 
 class Item extends React.Component {
+    constructor(props) {
+        super(props);
+        this.imageSrc = "/images/items/" + this.props.item.id + ".png";
+    }
+
     render() {
         return (
             <div>
-                <p>{ this.props.data.name }</p>
-                <p>{ this.props.data.description }</p>
+                <p>{this.props.item.name}</p>
+                <p>{this.props.item.description}</p>
+                <img src={this.imageSrc} alt={this.props.item.name} />
             </div>
         );
     };

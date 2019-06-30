@@ -1,4 +1,4 @@
-const itemsData  = 
+const itemsData =
 {
     "baseItems": [
         {

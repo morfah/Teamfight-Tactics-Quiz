@@ -6,10 +6,8 @@ import itemsData from './data/items';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Teamfight Tactics Quiz
-      </header>
-      <Items data={itemsData} />
+      <Items items={itemsData.baseItems} />
+      <Items items={itemsData.combinedItems} />
     </div>
   );
 }

@@ -4,12 +4,9 @@ import Item from './Item';
 class Items extends React.Component {
     render() {
         return (
-            this.props.data.baseItems.map(function(baseItem, i){
-                return <Item data={baseItem} />;
-            }),
-            this.props.data.combinedItems.map(function(combinedItem, i){
-                return <Item data={combinedItem} />;
-            })
+            this.props.items.map((item) =>
+                <Item key={item.id} item={item} />
+            )
         );
     };
 }
