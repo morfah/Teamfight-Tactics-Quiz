@@ -1,3 +1,4 @@
+const itemsData  = 
 {
     "baseItems": [
         {
@@ -38,7 +39,7 @@
         {
             "id": "TearOfTheGoddess",
             "name": "Tear of the Goddess",
-            "shortName": "TG",
+            "shortName": "Tear",
             "description": "+20 Starting Mana",
             "image": ""
         },
@@ -149,7 +150,7 @@
         {
             "id": "RapidFirecannon",
             "name": "Rapid Firecannon",
-            "shortName": "RF",
+            "shortName": "RFC",
             "description": "Doubles attack range. Basic attacks cannot miss.",
             "image": "",
             "combinedFrom": [
@@ -456,3 +457,5 @@
         }
     ]
 }
+
+export default itemsData;
