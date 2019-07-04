@@ -1,5 +1,6 @@
 const itemsData =
 {
+    "updated": "2019-06-30",
     "baseItems": [
         {
             "id": "BFSword",
@@ -325,7 +326,7 @@ const itemsData =
         },
         {
             "id": "Redemption",
-            "name": "Redemtion",
+            "name": "Redemption",
             "shortName": "Redemption",
             "description": "On death, after a small delay, heal nearby allies for 1000 healh.",
             "image": "",
@@ -429,8 +430,8 @@ const itemsData =
             "description": "Regenerates 3% of maximum health per second.",
             "image": "",
             "combinedFrom": [
-                { "itemId": "GiantBelt" },
-                { "itemId": "GiantBelt" }
+                { "itemId": "GiantsBelt" },
+                { "itemId": "GiantsBelt" }
             ]
         },
         {
@@ -440,7 +441,7 @@ const itemsData =
             "description": "Becomes a Glacial.",
             "image": "",
             "combinedFrom": [
-                { "itemId": "GiantBelt" },
+                { "itemId": "GiantsBelt" },
                 { "itemId": "Spatula" }
             ]
         },

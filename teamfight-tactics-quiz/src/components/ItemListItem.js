@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Item extends React.Component {
+class ItemListItem extends React.Component {
     constructor(props) {
         super(props);
         this.imageSrc = "/images/items/" + this.props.item.id + ".png";
@@ -17,4 +17,4 @@ class Item extends React.Component {
     };
 }
 
-export default Item;
+export default ItemListItem;

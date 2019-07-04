@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import Items from './components/Items';
+// import ItemList from './components/ItemList';
 import itemsData from './data/items';
+import ItemGrid from './components/ItemGrid';
 
 function App() {
   return (
     <div className="App">
-      <Items items={itemsData.baseItems} />
-      <Items items={itemsData.combinedItems} />
+      <ItemGrid baseItems={itemsData.baseItems} combinedItems={itemsData.combinedItems} />
+      {/* <ItemList items={itemsData.baseItems} />
+      <ItemList items={itemsData.combinedItems} /> */}
     </div>
   );
 }
