@@ -162,7 +162,7 @@ const itemsData =
         {
             "id": "GuinsoosRageblade",
             "name": "Guinsoo's Rageblade",
-            "shortName": "Rageblade",
+            "shortName": "Guinsoo's",
             "description": "Gain 3% attack speed on-hit. Stacks with no upper limit.",
             "image": "",
             "combinedFrom": [
