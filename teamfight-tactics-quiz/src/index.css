@@ -13,7 +13,31 @@ code {
 }
 
 .item-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
   width: 512px;
   height: 512px;
-  margin: 0 auto;
+}
+
+.item-grid-item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 64px;
+  height: 96px;
+}
+
+.item-grid-item img:nth-child(1) {
+  width: 64px;
+  height: 64px;
+}
+
+.item-grid-item img:nth-child(2) {
+  width: 32px;
+  height: 32px;
+}
+
+.item-grid-item img:nth-child(3) {
+  width: 32px;
+  height: 32px;
 }

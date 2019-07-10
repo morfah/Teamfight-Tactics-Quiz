@@ -1,5 +1,4 @@
 import React from 'react';
-// import ItemGridRow from './ItemGridRow';
 import ItemGridItem from './ItemGridItem';
 
 var _getCombinedItem = function (firstItem, secondItem, combinedItems) {
@@ -9,7 +8,7 @@ var _getCombinedItem = function (firstItem, secondItem, combinedItems) {
     });
 
     console.log(`${firstItem.name} + ${secondItem.name} = ${combinedItem.name}`);
-    return combinedItem;
+    return [combinedItem, firstItem, secondItem];
 };
 
 var _getCombinedItemArray = function (baseItems, combinedItems) {
@@ -36,9 +35,12 @@ class ItemGrid extends React.Component {
         return (
             <div className="item-grid">
                 {this.itemArray.map((row) =>
-                    // <ItemGridRow style={{ display: "block" }} key={index} row={row} />
                     row.map((item, index) =>
-                        <ItemGridItem key={index} item={item} />
+                        <ItemGridItem
+                            key={index}
+                            item={item[0]}
+                            firstBaseItem={item[1]}
+                            secondBaseItem={item[2]} />
                     )
                 )}
             </div>
