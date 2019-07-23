@@ -273,7 +273,7 @@ const itemsData =
             "id": "Morellonomicon",
             "name": "Morellonomicon",
             "shortName": "Morello",
-            "description": "Spacial Ability deals 5% of target's maximum health as true damage per second and prevents healing on the target.",
+            "description": "Special Ability deals 5% of target's maximum health as true damage per second and prevents healing on the target.",
             "image": "",
             "combinedFrom": [
                 { "itemId": "NeedlesslyLargeRod" },
