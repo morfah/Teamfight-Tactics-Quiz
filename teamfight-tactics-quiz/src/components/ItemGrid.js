@@ -1,7 +1,7 @@
 import React from 'react';
 import ItemGridItem from './ItemGridItem';
 
-var _getCombinedItem = function (firstItem, secondItem, combinedItems) {
+var _getCombinedItem = (firstItem, secondItem, combinedItems) => {
     var combinedItem = combinedItems.find(item => {
         return (item.combinedFrom[0].itemId === firstItem.id && item.combinedFrom[1].itemId === secondItem.id) ||
             (item.combinedFrom[1].itemId === firstItem.id && item.combinedFrom[0].itemId === secondItem.id);
@@ -11,7 +11,7 @@ var _getCombinedItem = function (firstItem, secondItem, combinedItems) {
     return [combinedItem, firstItem, secondItem];
 };
 
-var _getCombinedItemArray = function (baseItems, combinedItems) {
+var _getCombinedItemArray = (baseItems, combinedItems) => {
     var itemsArray = [];
     baseItems.forEach((firstItem) => {
         var itemRow = [];
