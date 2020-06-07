@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 // import ItemList from './components/ItemList';
-import itemsData from './data/items';
+import itemsData from './data/set1/items';
 import ItemGrid from './components/ItemGrid';
 
 function App() {
