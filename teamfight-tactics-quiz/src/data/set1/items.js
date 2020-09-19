@@ -119,7 +119,7 @@ const itemsData =
             "id": "Bloodthirster",
             "name": "Bloodthirster",
             "shortName": "Blood",
-            "description": "Hela for 50% of damage dealt by basic attacks.",
+            "description": "Heal for 50% of damage dealt by basic attacks.",
             "image": "",
             "combinedFrom": [
                 { "itemId": "BFSword" },
